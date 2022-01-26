@@ -18,6 +18,6 @@ pipeline {
             steps {
                 echo 'deploying our app...'
             }
-        }
+        } echo 'break it...'
     }
 } 
