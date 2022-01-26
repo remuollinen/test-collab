@@ -13,4 +13,8 @@ console.log(multiply(3, 4));
 function divide(m: any, n: any) {
   return m / n;
 }
-console.log(multiply(5, 10));
+console.log(divide(5, 10));
+function divide(m: any, n: any) {
+  return m / n;
+}
+console.log(divide(5, 10));
