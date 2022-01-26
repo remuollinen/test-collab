@@ -9,3 +9,8 @@ function multiply(a: any, b: any) {
 }
 
 console.log(multiply(3, 4));
+
+function divide(m: any, n: any) {
+  return m / n;
+}
+console.log(multiply(5, 10));
