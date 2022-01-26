@@ -9,7 +9,7 @@ pipeline {
         stage ("build") {
             steps {
                 echo 'building our app...'
-                sh 'node App.js'
+                sh 'npm install axios'
             }
         }
         stage ("test") {
