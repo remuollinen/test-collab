@@ -2,11 +2,14 @@
 pipeline {
     agent any 
 
+    tools {nodejs "node"}
+
     stages {
 
         stage ("build") {
             steps {
                 echo 'building our app...'
+                sh 'node App.js'
             }
         }
         stage ("test") {
@@ -18,6 +21,6 @@ pipeline {
             steps {
                 echo 'deploying our app...'
             }
-        } echo 'break it...'
+        } 
     }
 } 
